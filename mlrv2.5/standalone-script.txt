@@ -1,6 +1,0 @@
-include "Stripped:/Applications/Max5/Cycling '74/init/xsample-objectmappings.txt"
-open thispatcher
-folder SolidGold:/Users/trentgill/Dropbox/mlrv/mlrv2.5
-folder SolidGold:/Users/trentgill/Dropbox/mlrv/mlrv2.5/assets
-folder SolidGold:/Users/trentgill/Dropbox/mlrv/mlrv2.5/tabs
-include Stripped:/Applications/Max5/patches/serialosc.maxpat
