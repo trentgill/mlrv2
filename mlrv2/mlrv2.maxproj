@@ -2,7 +2,7 @@
 	"name" : "mlrv2",
 	"version" : 1,
 	"creationdate" : -783179101,
-	"modificationdate" : -782919396,
+	"modificationdate" : -780058193,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -12,8 +12,7 @@
 		"patchers" : 		{
 			"+DELAY.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"metapattern.maxpat" : 			{
@@ -32,6 +31,11 @@
 			}
 ,
 			"+SAMPLE.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"paramap.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -56,6 +60,15 @@
 				"local" : 1
 			}
 ,
+			"serialosc.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"yafr2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"+ARC4.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -68,22 +81,12 @@
 ,
 			"+MAPPING.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/monome/mlrv2/mlrv2.5/tabs",
-					"projectrelativepath" : "../mlrv2.5/tabs"
-				}
-
+				"local" : 1
 			}
 ,
 			"+REVERB.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/monome/mlrv2/mlrv2.5/tabs",
-					"projectrelativepath" : "../mlrv2.5/tabs"
-				}
-
+				"local" : 1
 			}
 ,
 			"ch.maxpat" : 			{
@@ -98,12 +101,7 @@
 ,
 			"EMPTY.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/monome/mlrv2/mlrv2.5/tabs",
-					"projectrelativepath" : "../mlrv2.5/tabs"
-				}
-
+				"local" : 1
 			}
 ,
 			"file_poly.maxpat" : 			{
@@ -123,15 +121,11 @@
 ,
 			"mlrv2.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
 			"preset.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"paramap.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -156,10 +150,6 @@
 				"local" : 1
 			}
 ,
-			"serialosc.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
 			"output.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -176,11 +166,6 @@
 			}
 ,
 			"tabber.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"yafr2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
