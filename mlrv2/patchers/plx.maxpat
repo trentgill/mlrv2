@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1059.0, 160.0, 1125.0, 839.0 ],
+		"rect" : [ 281.0, 160.0, 1125.0, 839.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -1668,7 +1668,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 79.0, 182.0, 1411.0, 750.0 ],
+						"rect" : [ -5.0, 182.0, 1411.0, 750.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -1786,7 +1786,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "signal" ],
-									"patching_rect" : [ 342.5, 226.666672, 175.833344, 21.0 ],
+									"patching_rect" : [ 342.5, 226.666672, 189.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"basictuning" : 440,
 										"followglobaltempo" : 0,
@@ -1803,7 +1803,7 @@
 									}
 ,
 									"style" : "",
-									"text" : "groove~ #1 2 @loop 1"
+									"text" : "groove~ #1 2 @loop 1 @loopinterp 1"
 								}
 
 							}
@@ -5613,7 +5613,6 @@
 													"fontname" : "Akzidenz-Grotesk (R) Schulbuch Regular",
 													"fontsize" : 11.0,
 													"id" : "obj-3",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 2,
