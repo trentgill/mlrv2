@@ -21,7 +21,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -29,15 +29,15 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 0,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"globalpatchername" : "u080024769",
+		"globalpatchername" : "u696000406",
 		"title" : "mlrv2",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -16299,7 +16299,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u354003964"
+					"varname" : "u996013694"
 				}
 
 			}
@@ -31310,133 +31310,133 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "preset.json",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/data",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "preset.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "paramap.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "right-triangle-large.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "left-triangle-large.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "time.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pttrn.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "setlist-off.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "setup-cog-off.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grid.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ch.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sample-forward.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "row-loop.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stepper-up.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stepper-down.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dropdown-triangle-large.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "file_poly.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "setlist.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "setup.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -31449,126 +31449,126 @@
 			}
 , 			{
 				"name" : "serialosc.js",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/code",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mixer.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dac.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-mixer.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "output.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plx.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-group-mixer.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-group-mixer.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-group-mixer.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4-group-mixer.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "return.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-send-mixer.png",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/media",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tabber.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "+MAPPING.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2.5/tabs",
-				"patcherrelativepath" : "../../mlrv2.5/tabs",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EMPTY.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2.5/tabs",
-				"patcherrelativepath" : "../../mlrv2.5/tabs",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "+DELAY.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "+REVERB.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2.5/tabs",
-				"patcherrelativepath" : "../../mlrv2.5/tabs",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/patchers",
+				"bootpath" : "~/Documents/mlrv2/mlrv2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
