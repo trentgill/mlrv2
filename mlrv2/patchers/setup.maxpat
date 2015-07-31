@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1203.0, 751.0 ],
+		"rect" : [ 34.0, 79.0, 1905.0, 1204.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 0.901961 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,103 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 11.0,
+					"id" : "obj-158",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 143.5, 986.0, 96.0, 21.0 ],
+					"style" : "",
+					"text" : "adstatus option 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "Selects the audio driver for input and output.",
+					"id" : "obj-105",
+					"maxclass" : "hint",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 95.5, 913.0, 36.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 518.0, 86.0, 219.0, 16.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgtransparent" : 1,
+					"border" : 0,
+					"id" : "obj-110",
+					"ignoreclick" : 1,
+					"local" : 0,
+					"maxclass" : "lcd",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "list", "list", "int", "" ],
+					"patching_rect" : [ 1212.0, 744.0, 18.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 736.0, 84.0, 23.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 11.0,
+					"id" : "obj-112",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 131.5, 907.0, 56.0, 32.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 404.0, 84.0, 113.0, 19.0 ],
+					"style" : "",
+					"text" : "OUTPUT DEVICE",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"align" : 2,
+					"allowdrag" : 0,
+					"arrow" : 0,
+					"bgcolor" : [ 0.160784, 0.160784, 0.160784, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_color" : [ 0.160784, 0.160784, 0.160784, 0.0 ],
+					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "color",
+					"fontsize" : 12.0,
+					"frozen_box_attributes" : [ "pattrmode" ],
+					"id" : "obj-121",
+					"items" : [ "Built-in Output", ",", "Fireface 400 (A7C)", ",", "FF&Built In" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 113.5, 943.0, 79.0, 22.0 ],
+					"pattrmode" : 1,
+					"presentation" : 1,
+					"presentation_rect" : [ 519.0, 82.0, 215.0, 22.0 ],
+					"style" : "",
+					"textcolor" : [ 0.964706, 0.85098, 0.478431, 1.0 ],
+					"textjustification" : 2,
+					"varname" : "OutputDevice"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.254902, 0.705882, 0.8, 1.0 ],
 					"fontname" : "Helvetica Neue",
@@ -126,7 +223,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -861,7 +958,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1079,7 +1176,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -1525,7 +1622,7 @@
 					"fontsize" : 12.0,
 					"frozen_box_attributes" : [ "pattrmode" ],
 					"id" : "obj-196",
-					"items" : [ "OFF", ",", "<separator>", ",", "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "OFF", ",", "<separator>", ",", "AU DLS Synth 1", ",", "Fireface 400 (A7C) Port 1", ",", "Fireface 400 (A7C) Port 2", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1615,7 +1712,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2162,7 +2259,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3542,7 +3639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 576.0, 858.0, 92.0, 20.0 ],
+					"patching_rect" : [ 576.0, 858.0, 92.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend append"
 				}
@@ -3557,7 +3654,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "none", "clear" ],
-					"patching_rect" : [ 576.0, 834.0, 68.0, 20.0 ],
+					"patching_rect" : [ 576.0, 834.0, 68.0, 21.0 ],
 					"style" : "",
 					"text" : "t none clear"
 				}
@@ -3572,7 +3669,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 576.0, 810.0, 63.0, 20.0 ],
+					"patching_rect" : [ 576.0, 810.0, 63.0, 21.0 ],
 					"style" : "",
 					"text" : "route clear"
 				}
@@ -3617,7 +3714,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 522.0, 858.0, 40.0, 20.0 ],
+					"patching_rect" : [ 522.0, 858.0, 40.0, 21.0 ],
 					"style" : "",
 					"text" : "midiin"
 				}
@@ -3632,7 +3729,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 540.0, 780.0, 58.0, 20.0 ],
+					"patching_rect" : [ 540.0, 780.0, 58.0, 21.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -3647,7 +3744,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 810.0, 55.0, 20.0 ],
+					"patching_rect" : [ 504.0, 810.0, 55.0, 21.0 ],
 					"style" : "",
 					"text" : "midiinfo"
 				}
@@ -3685,7 +3782,7 @@
 					"fontsize" : 12.0,
 					"frozen_box_attributes" : [ "pattrmode" ],
 					"id" : "obj-327",
-					"items" : [ "none", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "none", ",", "Fireface 400 (A7C) Port 1", ",", "Fireface 400 (A7C) Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3792,7 +3889,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -4090,7 +4187,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -4634,7 +4731,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 305.0, 626.0, 55.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 660.0, 93.0, 61.0, 19.0 ],
+					"presentation_rect" : [ 660.0, 114.0, 61.0, 19.0 ],
 					"style" : "",
 					"text" : "S.R.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -4650,7 +4747,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 342.0, 660.0, 36.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 702.0, 94.0, 53.0, 16.0 ]
+					"presentation_rect" : [ 702.0, 115.0, 53.0, 16.0 ]
 				}
 
 			}
@@ -4678,7 +4775,7 @@
 					"patching_rect" : [ 288.0, 684.0, 71.0, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 701.0, 93.0, 55.0, 20.0 ],
+					"presentation_rect" : [ 701.0, 114.0, 55.0, 20.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
@@ -4716,7 +4813,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -5361,7 +5458,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -5650,7 +5747,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 324.0, 870.0, 44.0, 20.0 ],
+					"patching_rect" : [ 324.0, 870.0, 44.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -5675,7 +5772,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 378.0, 852.0, 36.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.0, 117.0, 176.0, 16.0 ]
+					"presentation_rect" : [ 407.0, 138.0, 176.0, 16.0 ]
 				}
 
 			}
@@ -5689,7 +5786,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 342.0, 852.0, 39.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.0, 116.0, 144.0, 19.0 ],
+					"presentation_rect" : [ 407.0, 137.0, 144.0, 19.0 ],
 					"style" : "",
 					"text" : "0 MB",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.74902 ]
@@ -5706,7 +5803,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 288.0, 858.0, 39.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 551.0, 116.0, 36.0, 19.0 ],
+					"presentation_rect" : [ 551.0, 137.0, 36.0, 19.0 ],
 					"style" : "",
 					"text" : "RAM",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.74902 ]
@@ -5735,7 +5832,7 @@
 					"patching_rect" : [ 313.0, 892.0, 54.0, 12.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.0, 117.0, 176.0, 16.0 ],
+					"presentation_rect" : [ 407.0, 138.0, 176.0, 16.0 ],
 					"setminmax" : [ 0.0, 100.0 ],
 					"settype" : 0,
 					"slidercolor" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
@@ -6107,7 +6204,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 342.0, 744.0, 36.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 589.0, 117.0, 166.0, 16.0 ]
+					"presentation_rect" : [ 589.0, 138.0, 166.0, 16.0 ]
 				}
 
 			}
@@ -6133,7 +6230,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 738.0, 36.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 627.0, 94.0, 28.0, 16.0 ]
+					"presentation_rect" : [ 627.0, 115.0, 28.0, 16.0 ]
 				}
 
 			}
@@ -6146,7 +6243,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 198.0, 726.0, 36.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 499.0, 94.0, 28.0, 16.0 ]
+					"presentation_rect" : [ 499.0, 115.0, 28.0, 16.0 ]
 				}
 
 			}
@@ -6159,7 +6256,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 342.0, 768.0, 36.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 555.0, 149.0, 28.0, 16.0 ]
+					"presentation_rect" : [ 555.0, 170.0, 28.0, 16.0 ]
 				}
 
 			}
@@ -6172,7 +6269,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 900.0, 810.0, 36.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 727.0, 149.0, 28.0, 16.0 ]
+					"presentation_rect" : [ 727.0, 170.0, 28.0, 16.0 ]
 				}
 
 			}
@@ -6353,7 +6450,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -6766,7 +6863,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1224.0, 306.0, 113.0, 20.0 ],
+					"patching_rect" : [ 1224.0, 306.0, 113.0, 21.0 ],
 					"style" : "",
 					"text" : "s [midi]remote-return"
 				}
@@ -6802,7 +6899,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -6959,7 +7056,7 @@
 					"fontsize" : 12.0,
 					"frozen_box_attributes" : [ "pattrmode" ],
 					"id" : "obj-243",
-					"items" : [ "none", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "none", ",", "Fireface 400 (A7C) Port 1", ",", "Fireface 400 (A7C) Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7008,7 +7105,7 @@
 					"fontsize" : 12.0,
 					"frozen_box_attributes" : [ "pattrmode" ],
 					"id" : "obj-246",
-					"items" : [ "none", ",", "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "none", ",", "AU DLS Synth 1", ",", "Fireface 400 (A7C) Port 1", ",", "Fireface 400 (A7C) Port 2", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7371,7 +7468,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -8289,7 +8386,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -9122,7 +9219,7 @@
 					"frozen_box_attributes" : [ "pattrmode" ],
 					"id" : "obj-192",
 					"ignoreclick" : 1,
-					"items" : [ "none", ",", "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "none", ",", "AU DLS Synth 1", ",", "Fireface 400 (A7C) Port 1", ",", "Fireface 400 (A7C) Port 2", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9169,7 +9266,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -9216,7 +9313,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -10044,7 +10141,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -10253,7 +10350,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -10388,7 +10485,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x86",
 															"modernui" : 1
 														}
@@ -10879,7 +10976,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x86",
 															"modernui" : 1
 														}
@@ -12162,7 +12259,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -13228,7 +13325,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -13511,7 +13608,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x86",
 															"modernui" : 1
 														}
@@ -13938,7 +14035,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x86",
 															"modernui" : 1
 														}
@@ -15634,7 +15731,7 @@
 					"frozen_box_attributes" : [ "pattrmode" ],
 					"id" : "obj-59",
 					"ignoreclick" : 1,
-					"items" : [ "none", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "none", ",", "Fireface 400 (A7C) Port 1", ",", "Fireface 400 (A7C) Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -16024,7 +16121,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -16990,7 +17087,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -17206,7 +17303,7 @@
 					"fontsize" : 12.0,
 					"frozen_box_attributes" : [ "pattrmode" ],
 					"id" : "obj-55",
-					"items" : [ "to Max 1", ",", "to Max 2" ],
+					"items" : [ "Fireface 400 (A7C) Port 1", ",", "Fireface 400 (A7C) Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -17282,7 +17379,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -18363,7 +18460,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 810.0, 864.0, 76.0, 20.0 ],
+					"patching_rect" : [ 810.0, 864.0, 76.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -18394,7 +18491,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -18468,7 +18565,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -18825,7 +18922,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -18947,7 +19044,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -19294,7 +19391,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -19818,7 +19915,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 54.0, 840.0, 48.0, 20.0 ],
+					"patching_rect" : [ 54.0, 840.0, 48.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -19848,7 +19945,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -20055,7 +20152,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -20243,7 +20340,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 180.0, 822.0, 61.0, 20.0 ],
+					"patching_rect" : [ 180.0, 822.0, 61.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -20274,7 +20371,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -20315,7 +20412,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 288.0, 90.0, 23.0, 20.0 ],
+									"patching_rect" : [ 288.0, 90.0, 23.0, 21.0 ],
 									"style" : "",
 									"text" : "t 1"
 								}
@@ -20343,7 +20440,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 148.0, 70.0, 20.0 ],
+									"patching_rect" : [ 50.0, 148.0, 70.0, 21.0 ],
 									"style" : "",
 									"text" : "prepend set"
 								}
@@ -20358,7 +20455,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 124.0, 56.0, 20.0 ],
+									"patching_rect" : [ 50.0, 124.0, 56.0, 21.0 ],
 									"style" : "",
 									"text" : "route set"
 								}
@@ -20373,7 +20470,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 50.0, 100.0, 101.0, 20.0 ],
+									"patching_rect" : [ 50.0, 100.0, 101.0, 21.0 ],
 									"style" : "",
 									"text" : "adstatus overdrive"
 								}
@@ -20462,7 +20559,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 180.0, 864.0, 65.0, 20.0 ],
+					"patching_rect" : [ 180.0, 864.0, 65.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -20487,7 +20584,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1197.0, 837.0, 18.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.0, 140.0, 348.0, 18.0 ]
+					"presentation_rect" : [ 407.0, 161.0, 348.0, 18.0 ]
 				}
 
 			}
@@ -20652,7 +20749,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 144.0, 726.0, 68.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 404.0, 93.0, 81.0, 19.0 ],
+					"presentation_rect" : [ 404.0, 114.0, 81.0, 19.0 ],
 					"style" : "",
 					"text" : "IO VECTOR",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -20670,7 +20767,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 306.0, 786.0, 68.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 404.0, 148.0, 138.0, 19.0 ],
+					"presentation_rect" : [ 404.0, 169.0, 138.0, 19.0 ],
 					"style" : "",
 					"text" : "REWIRE MODE",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -20692,7 +20789,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 270.0, 786.0, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 555.0, 149.0, 28.0, 16.0 ],
+					"presentation_rect" : [ 555.0, 170.0, 28.0, 16.0 ],
 					"style" : "",
 					"text" : "OFF",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.74902 ],
@@ -20714,7 +20811,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 810.0, 75.0, 20.0 ],
+					"patching_rect" : [ 270.0, 810.0, 75.0, 21.0 ],
 					"style" : "",
 					"text" : "s [rw]activate"
 				}
@@ -20749,7 +20846,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 846.0, 798.0, 53.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 588.0, 148.0, 141.0, 19.0 ],
+					"presentation_rect" : [ 588.0, 169.0, 141.0, 19.0 ],
 					"style" : "",
 					"text" : "REWIRE TEMPO SLAVE",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -20837,12 +20934,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 34.0, 79.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -20878,7 +20975,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 90.0, 60.0, 57.0, 20.0 ],
+									"patching_rect" : [ 90.0, 60.0, 57.0, 21.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -20906,7 +21003,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 567.0, 31.0 ],
+									"patching_rect" : [ 50.0, 100.0, 567.0, 34.0 ],
 									"style" : "",
 									"text" : "clear, frgb 255 255 255 47, moveto 1 2, lineto 1 17, frgb 0 0 0 192, moveto 0 2, lineto 0 17, frgb 255 255 255 191, paintpoly 7 7 13 7 10 13"
 								}
@@ -21055,7 +21152,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1029.0, 753.0, 76.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 399.0, 54.0, 361.0, 34.0 ],
+					"presentation_rect" : [ 399.0, 54.0, 361.0, 55.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -21129,7 +21226,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 846.0, 834.0, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 727.0, 149.0, 28.0, 16.0 ],
+					"presentation_rect" : [ 727.0, 170.0, 28.0, 16.0 ],
 					"style" : "",
 					"text" : "OFF",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.74902 ],
@@ -21292,7 +21389,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 306.0, 744.0, 39.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 589.0, 116.0, 129.0, 19.0 ],
+					"presentation_rect" : [ 589.0, 137.0, 129.0, 19.0 ],
 					"style" : "",
 					"text" : "0%",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.74902 ]
@@ -21340,7 +21437,7 @@
 					"fontsize" : 12.0,
 					"frozen_box_attributes" : [ "pattrmode" ],
 					"id" : "obj-259",
-					"items" : [ "INTERNAL", ",", "<separator>", ",", "REWIRE", ",", "<separator>", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "INTERNAL", ",", "<separator>", ",", "REWIRE", ",", "<separator>", ",", "Fireface 400 (A7C) Port 1", ",", "Fireface 400 (A7C) Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -21415,7 +21512,7 @@
 					"fontsize" : 12.0,
 					"frozen_box_attributes" : [ "pattrmode" ],
 					"id" : "obj-181",
-					"items" : [ "OFF", ",", "<separator>", ",", "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "OFF", ",", "<separator>", ",", "AU DLS Synth 1", ",", "Fireface 400 (A7C) Port 1", ",", "Fireface 400 (A7C) Port 2", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -21518,7 +21615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1134.0, 876.0, 59.5, 20.0 ],
+					"patching_rect" : [ 1134.0, 876.0, 59.5, 21.0 ],
 					"restore" : 					{
 						"1grpcol" : [ 0.87, 0.76, 0.38, 1.0, 0.12549, 0.643137, 0.623529 ],
 						"2grpcol" : [ 0.51, 0.91, 0.46, 1.0, 0.313726, 0.705882, 0.686275 ],
@@ -21530,9 +21627,10 @@
 						"ECHO" : [ 0 ],
 						"OSC-rport" : [ 0 ],
 						"OSC-sport" : [ 0 ],
+						"OutputDevice" : [ "Built-in Output" ],
 						"ROWCOUNT" : [ 7 ],
 						"Var-bright" : [ 1 ],
-						"[device]boxselect" : [ 0 ],
+						"[device]boxselect" : [ 1 ],
 						"[dsp]interrupt" : [ 1 ],
 						"[dsp]outputdevice" : [ "Core Audio" ],
 						"[dsp]overdrive" : [ 1 ],
@@ -21549,7 +21647,7 @@
 						"[midi]maindeviceout" : [ "none" ],
 						"[midi]recorderdevicein" : [ "none" ],
 						"[midi]recorderdevicereturn" : [ "none" ],
-						"[midi]remotedevicein" : [ "to Max 1" ],
+						"[midi]remotedevicein" : [ "Fireface 400 (A7C) Port 1" ],
 						"[midi]remotedevicein2" : [ "none" ],
 						"[midi]syncdeviceout" : [ "OFF" ],
 						"[mlr]i-o-vector" : [ 2 ],
@@ -21568,7 +21666,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u901000357"
+					"varname" : "u806015121"
 				}
 
 			}
@@ -21758,7 +21856,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 270.0, 726.0, 39.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 116.0, 36.0, 19.0 ],
+					"presentation_rect" : [ 724.0, 137.0, 36.0, 19.0 ],
 					"style" : "",
 					"text" : "CPU",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.74902 ]
@@ -21773,7 +21871,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 804.0, 76.0, 20.0 ],
+					"patching_rect" : [ 144.0, 804.0, 76.0, 19.0 ],
 					"style" : "",
 					"text" : "INTERRUPT",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.74902 ]
@@ -21788,7 +21886,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 846.0, 75.0, 20.0 ],
+					"patching_rect" : [ 144.0, 846.0, 75.0, 19.0 ],
 					"style" : "",
 					"text" : "OVERDRIVE",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.74902 ]
@@ -21806,7 +21904,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 54.0, 732.0, 55.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 532.0, 93.0, 99.0, 19.0 ],
+					"presentation_rect" : [ 532.0, 114.0, 99.0, 19.0 ],
 					"style" : "",
 					"text" : "SIGNAL VECTOR",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -21835,7 +21933,7 @@
 					"patching_rect" : [ 270.0, 768.0, 54.0, 12.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 589.0, 117.0, 166.0, 16.0 ],
+					"presentation_rect" : [ 589.0, 138.0, 166.0, 16.0 ],
 					"setminmax" : [ 0.0, 100.0 ],
 					"settype" : 0,
 					"slidercolor" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
@@ -21866,7 +21964,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 36.0, 792.0, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 498.0, 93.0, 30.0, 20.0 ],
+					"presentation_rect" : [ 498.0, 114.0, 30.0, 20.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
@@ -21896,7 +21994,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 144.0, 774.0, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 626.0, 93.0, 30.0, 20.0 ],
+					"presentation_rect" : [ 626.0, 114.0, 30.0, 20.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
@@ -21913,7 +22011,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 36.0, 768.0, 78.0, 20.0 ],
+					"patching_rect" : [ 36.0, 768.0, 78.0, 21.0 ],
 					"style" : "",
 					"text" : "adstatus iovs"
 				}
@@ -21985,7 +22083,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -22246,6 +22344,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-170", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -22331,6 +22438,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-115", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-121", 1 ]
 				}
 
 			}
@@ -22430,6 +22546,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-157", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-121", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-158", 0 ]
 				}
 
 			}
@@ -24026,8 +24151,7 @@
 			}
 , 			{
 				"name" : "serialosc.js",
-				"bootpath" : "~/Documents/mlrv2/mlrv2/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/monome/mlrv2/mlrv2/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
