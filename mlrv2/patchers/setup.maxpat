@@ -48,7 +48,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 143.5, 986.0, 96.0, 21.0 ],
+					"patching_rect" : [ 85.25, 976.0, 96.0, 21.0 ],
 					"style" : "",
 					"text" : "adstatus option 1"
 				}
@@ -21666,7 +21666,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u806015121"
+					"varname" : "u405011932"
 				}
 
 			}
@@ -22446,7 +22446,7 @@
 					"destination" : [ "obj-158", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-121", 1 ]
+					"source" : [ "obj-121", 0 ]
 				}
 
 			}
